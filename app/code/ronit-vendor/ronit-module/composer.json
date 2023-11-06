@@ -1,10 +1,9 @@
 {
-    "name": "RonitVendor/module_RonitModule",
+    "name": "ronit-vendor/module_ronit-module",
     "description": "N/A",
     "type": "magento2-module",
     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+        "BSD-3-Clause"
     ],
     "config": {
         "sort-packages": true
@@ -23,7 +22,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "RonitVendor\\RonitModule\\": ""
+            "ronit-vendor\\ronit-module\\": ""
         }
     }
 }

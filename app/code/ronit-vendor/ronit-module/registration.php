@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'RonitVendor_RonitModule', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'ronit-vendor_ronit-module', __DIR__);

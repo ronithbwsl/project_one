@@ -5,6 +5,7 @@
         <column name="name" xsi:type="varchar" nullable="false" length="124" comment="Brand Name" />
         <column name="description" xsi:type="text" nullable="true" comment="brand Name" />
         <column name="is_enabled" xsi:type="booelan" nullabel="false" default="0" comment="Is the Brand Enabled?" />
+        <column name="weighting_factor" xsi:type="decimal" presion="5" scale="4" default="1" unsinged="false" nullable="false" />
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id" />
         </constraint>

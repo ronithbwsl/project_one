@@ -2,8 +2,11 @@
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespac3eSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
     <table name="vendor_name_table_name" resource="defualt" engine="innodb" comment="VendorName Generic Table" charset="utf8" collation="utf8_general_ci">
         <column name="id" xsi:type="int" padding="11" unsigned="true" identity="true" comment="Brand ID" nullable="false" />
+        <column name="name" xsi:type="varchar" nullable="false" length="124" comment="Brand Name" />
+        <column name="description" xsi:type="text" nullable="true" comment="brand Name" />
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id" />
         </constraint>
+
     </table>
 </schema>

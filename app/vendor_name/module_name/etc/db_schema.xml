@@ -4,6 +4,7 @@
         <column name="id" xsi:type="int" padding="11" unsigned="true" identity="true" comment="Brand ID" nullable="false" />
         <column name="name" xsi:type="varchar" nullable="false" length="124" comment="Brand Name" />
         <column name="description" xsi:type="text" nullable="true" comment="brand Name" />
+        <column name="is_enabled" xsi:type="booelan" nullabel="false" default="0" comment="Is the Brand Enabled?" />
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id" />
         </constraint>

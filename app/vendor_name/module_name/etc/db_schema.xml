@@ -11,6 +11,6 @@
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id" />
         </constraint>
-
+        <constraint xsi:type="foregin" referenceId="MAGE2TV_TMP" column="website_id" referenceTable="store_website" referenceColumn="website_id" onDelete="CASCADE" />
     </table>
 </schema>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespac3eSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="vendor_name_table_name" resource="defualt" engine="innodb" comment="VendorName Generic Table" charset="utf8" collation="utf8_general_ci">
+</schema>
